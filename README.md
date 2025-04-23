@@ -10,44 +10,18 @@ A comprehensive Python-based Smart City system focusing on sustainability analys
 - Detailed sustainability analysis for water, waste, and environmental factors
 - Optimization tools to identify optimal resource usage strategies
 
-## System Requirements
-
-- Python 3.8+
-- Required packages are listed in `requirements.txt`
-
-## Installation
-
 
 # Install dependencies
 pip install -r requirements.txt
-```
 
 ## Usage
 
 Run the main application:
-
-```bash
 python src/main.py
 ```
 
 This will execute the full Smart City pipeline from data collection to optimization, and save the results to the `results` directory.
 
-## Project Structure
-
-```
-smart-city-project/
-├── src/
-│   ├── data_collection/       # Data collection components
-│   ├── data_processing/       # Data processing components
-│   ├── ai_model/              # AI model components
-│   ├── sustainability_metrics/ # Sustainability analysis
-│   ├── optimization/          # Optimization components
-│   └── main.py                # Main application
-├── data/                      # Data storage
-├── models/                    # Trained models storage
-├── results/                   # Analysis results
-└── README.md
-```
 
 ## Components
 
