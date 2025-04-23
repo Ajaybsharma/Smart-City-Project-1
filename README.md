@@ -28,36 +28,5 @@ This will execute the full Smart City pipeline from data collection to optimizat
 
 
 
-## Components
 
-### Data Collection
-
-- `OpenStreetMapSource`: Collects geographical data from OpenStreetMap API
-- `RealEstateDataSource`: Gathers real estate data for housing analysis
-- `IoTEnvironmentalSource`: Interfaces with IoT sensors for environmental data
-- `DataCollector`: Aggregates data from multiple sources
-- `DataValidator`: Ensures data quality and consistency
-
-### Data Processing
-
-- `DataPreprocessor`: Cleans and prepares raw data
-- `FeatureEngineer`: Creates meaningful features for machine learning
-- `DataNormalizer`: Standardizes data from diverse sources
-
-### AI Model
-
-- `ModelTrainer`: Trains machine learning models on processed data
-- `ModelDeployer`: Fine-tunes and deploys models
-- `ModelEvaluator`: Assesses model performance
-
-### Sustainability Metrics
-
-- `WaterMetricsAnalyzer`: Analyzes water availability and usage
-- `WasteManagementAnalyzer`: Evaluates waste handling and recycling
-- `EnvironmentalFactorsAnalyzer`: Analyzes environmental parameters
-
-### Optimization
-
-- `AIOptimizer`: Applies machine learning to optimize sustainability
-- `PerformanceMetricsCalculator`: Measures optimization effectiveness
 
