@@ -14,6 +14,8 @@ A comprehensive Python-based Smart City system focusing on sustainability analys
 # Install dependencies
 pip install -r requirements.txt
 
+
+
 ## Usage
 
 Run the main application:
@@ -21,6 +23,9 @@ python src/main.py
 ```
 
 This will execute the full Smart City pipeline from data collection to optimization, and save the results to the `results` directory.
+
+
+
 
 
 ## Components
